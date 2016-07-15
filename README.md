@@ -1,18 +1,22 @@
 # nQueens - Trabalho de Sistemas Operacionais - UFPEL
 
-Nome: Luan Einhardt
+#### Nome: Luan Einhardt
 
-Relatório:
-	No trabalho foi utilizado apenas mutex como mecanismo de sincronização, afim de evitar que mais de uma thread tente escrever o arquivo de saida ao mesmo tempo.
+#### Relatório
 
-Configuração do computador testado:
-	Processador: AMD FX(tm)-8350 Eight-Core Processor × 8
-	Memória: 8 GiB
+No trabalho foi utilizado apenas mutex como mecanismo de sincronização, afim de evitar que mais de uma thread tente escrever o arquivo de saida ao mesmo tempo.
 
-Dados estatísticos:
-	Foram realizados testes com estradas N de 1 até 12, uma vez que a entrada N = 13 multithread levou 22 minutos e a sequencial não retornou resposta em 30 minutos.
+#### Configuração do computador testado
+
+ - Processador: AMD FX(tm)-8350 Eight-Core Processor × 8
+ - Memória: 8 GiB
+
+#### Dados estatísticos
+
+Foram realizados testes com estradas N de 1 até 12, uma vez que a entrada N = 13 multithread levou 22 minutos e a sequencial não retornou resposta em 30 minutos.
 
 #### Entrada N = 1
+
 * Sequencial:
 * Tempo médio = 0.8 microseconds
 * Threads:
@@ -25,8 +29,9 @@ Dados estatísticos:
 * Desvio padrão = 57.5555 microseconds
 * Speedup       = 0.0139373
 * Eficiência    = 0.0139373
--------------------------------------
+
 #### Entrada N = 2
+
 * Sequencial:
 * Tempo médio = 0.4 microseconds
 * Threads:
@@ -39,8 +44,9 @@ Dados estatísticos:
 * Desvio padrão = 1.62481 microseconds
 * Speedup       = 0.0185185
 * Eficiência    = 0.00925926
--------------------------------------
+
 #### Entrada N = 3
+
 * Sequencial:
 * Tempo médio = 2.2 microseconds
 * Threads:
@@ -53,8 +59,9 @@ Dados estatísticos:
 * Desvio padrão = 33.8089 microseconds
 * Speedup       = 0.0454545
 * Eficiência    = 0.0151515
--------------------------------------
+
 #### Entrada N = 4
+
 * Sequencial:
 * Tempo médio = 8.4 microseconds
 * Threads:
@@ -67,8 +74,9 @@ Dados estatísticos:
 * Desvio padrão = 1.16619 microseconds
 * Speedup       = 0.248521
 * Eficiência    = 0.0621302
--------------------------------------
+
 #### Entrada N = 5
+
 * Sequencial:
 * Tempo médio = 47.2 microseconds
 * Threads:
@@ -81,8 +89,9 @@ Dados estatísticos:
 * Desvio padrão = 31.7591 microseconds
 * Speedup       = 0.405498
 * Eficiência    = 0.0810997
--------------------------------------
+
 #### Entrada N = 6
+
 * Sequencial:
 * Tempo médio = 964.8 microseconds
 * Threads:
@@ -95,8 +104,9 @@ Dados estatísticos:
 * Desvio padrão = 55.1638 microseconds
 * Speedup       = 2.25105
 * Eficiência    = 0.375175
--------------------------------------
+
 #### Entrada N = 7
+
 * Sequencial:
 * Tempo médio = 4842.8 microseconds
 * Threads:
@@ -109,8 +119,9 @@ Dados estatísticos:
 * Desvio padrão = 358.977 microseconds
 * Speedup       = 1.69459
 * Eficiência    = 0.242084
--------------------------------------
+
 #### Entrada N = 8
+
 * Sequencial:
 * Tempo médio = 25813 microseconds
 * Threads:
@@ -123,8 +134,9 @@ Dados estatísticos:
 * Desvio padrão = 1698.55 microseconds
 * Speedup       = 3.52916
 * Eficiência    = 0.441145
--------------------------------------
+
 #### Entrada N = 9
+
 * Sequencial:
 * Tempo médio = 248868 microseconds
 * Threads:
@@ -137,8 +149,9 @@ Dados estatísticos:
 * Desvio padrão = 8440.69 microseconds
 * Speedup       = 3.26447
 * Eficiência    = 0.362719
--------------------------------------
+
 #### Entrada N = 10
+
 * Sequencial:
 * Tempo médio = 2864620 microseconds
 * Threads:
@@ -151,8 +164,9 @@ Dados estatísticos:
 * Desvio padrão = 8275.69 microseconds
 * Speedup       = 4.05156
 * Eficiência    = 0.405156
--------------------------------------
+
 #### Entrada N = 11
+
 * Sequencial:
 * Tempo médio = 36037200 microseconds
 * Threads:
@@ -165,8 +179,9 @@ Dados estatísticos:
 * Desvio padrão = 115778 microseconds
 * Speedup       = 4.62682
 * Eficiência    = 0.42062
--------------------------------------
+
 #### Entrada N = 12
+
 * Sequencial:
 * Tempo médio = 464135000 microseconds
 * Threads:
